@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/xp-projects.css">
+    <link rel="stylesheet" href="styles\reset.css">
+    <link rel="stylesheet" href="styles/resume.css">
+    <link rel="stylesheet" href="styles\sideBar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="banner" src="imgs/code.jpg" alt="banner">
+        <div class="sidenav">
+            <button class="dropBtn">Sobre mim
+                <span class="fa fa-caret-down"></span>
+            </button>
+            <div class="drop-container">
+                <a id="ancorMyHistory" href="#myHistory">Minha história</a>
+                <a id="ancorHobbiesSofts" href="#hobbiesSoftskills">Hobbies+Soft Skills</a>
+                <a id="ancorCourses" href="#courses">Formações+Cursos</a>
+                <a id="ancorXP" href="#experiences">Experiência</a>
+            </div>
+
+            <button class="dropBtn">Projetos
+                <span class="fa fa-caret-down"></span>
+            </button>
+            <div class="drop-container">
+                <a id="ancorMyHistory" href="#">Criptografia</a>
+                <button id="dropBtn-2nd-level" class="dropBtn">Jogos
+                    <span class="fa fa-caret-down"></span>
+                </button>
+                <div class="drop-container">
+                    <a id="ancorHobbiesSofts" href="#myProjects">Jogo da cobrinha</a>
+                    <a id="ancorCourses" href="#">Jogo da forca</a>
+                    <a id="ancorXP" href="#">Jogo da velha</a>
+                </div>
+                <button id="dropBtn-2nd-level" class="dropBtn">Websites
+                    <span class="fa fa-caret-down"></span>
+                </button>
+                <div class="drop-container">
+                    <a id="ancorE-commerce" href="#">E-commerce</a>
+                    <a id="ancorLearningPlataform" href="#">Plataforma de aprendizado</a>
+                </div>
+            </div>
+
+            <button class="dropBtn">Contato
+                <span class="fa fa-caret-down"></span>
+            </button>
+            <div class="drop-container">
+                <a id="ancorContact" href="#contact">Formulário</a>
+            </div>
+        </div>
+
+        <div id="myDatas">
+            <section id="personalDatas">
+                <div class="datas">
+                    <img class="myPicture" src="imgs/myPicture.jpeg" alt="Minha foto">
+                    <div class="aboutMe">
+                        <ul>
+                            <li><span class="informations">Nome:</span> Lucas Pinheiro Miguel</li>
+                            <li id=informations-age><span class="informations">Idade: </span></li>
+                            <li><span class="informations">Nacionalidade:</span> Brasileiro</li>
+                        </ul>
+                        <div class="resume-links">
+                            <button id="btn-resume">Currículo</button>
+                            <object id="resume" data="documents/Lucas'Resume.pdf" type="application/pdf"></object>
+                            <div class="social">
+                                <a href="https://github.com/LucasMiguel20" target="_blank">
+                                    <img class="github-img" src="imgs/github.png" alt="github">
+                                </a>
+                                <a href="https://www.linkedin.com/in/lucas-pinheiro-miguel-7922b11ba/" target="_blank">
+                                    <img class="linkedin-img" src="imgs\linkedin.png" alt="linkedin">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="myPast" class="past">
+                <h2 id="myHistory" class="past-title">Minha história</h2>
+                <div class="myHistoty-texts">
+                    <p>
+                        Sempre fui uma pessoa muito curiosa e bastante interessada nos saberes da vida. Não importa o
+                        assunto,
+                        eu sempre gosto de conhecer o novo, o desconhecido e também o passado.
+                    </p>
+
+                    <p>
+                        Devido à essa minha "sede de conhecimento", fiz vestibular para Biologia. Área muito vasta e
+                        repleta
+                        de
+                        novos saberes. No entanto, após alguns anos atuando nessa área, a pandemia de Coronavírus
+                        (COVID-19)
+                        nos
+                        surpreendeu, abalando e transformou as vidas das pessoas ao redor do mundo.
+                    </p>
+
+                    <p>
+                        Diante do novo modo de viver e com as suas restrições, não pude exercer mais a profissão de
+                        professor de
+                        biologia e, somado a isso, tive uma crise de hérnia de disco que me deixou em tratamento por 3
+                        dolorosos
+                        meses.
+                    </p>
+
+                    <p>
+                        Durante essa crise refleti muito sobre a vida, olhei mais para o meu eu interior. O resultado
+                        disso
+                        foi
+                        uma mudança de área profissional, me encantei pela programação. Na realidade eu sempre tive
+                        gosto
+                        por
+                        tecnologias e em como elas contribuem para facilitar a vida das pessoas.
+                    </p>
+
+                    <p>
+                        Desde então venho estudando e me desenvolvendo para um dia poder atuar profissionalmente na área
+                        de
+                        TI e
+                        ajudar a tornar a vida das pessoas menos difícil como o auxílio da tecnologia.
+                    </p>
+                </div>
+            </section>
+
+            <section id="whatILike" class="liking">
+                <h2 id="hobbiesSoftskills" class="liking-title">Hobbies e Soft Skills</h2>
+                <div class="hobbiesSoftskills-texts">
+                    <p>
+                        Sou uma pessoa com muita energia e disposição. Sempre pratiquei atividades físicas, dentre elas:
+                    </p>
+                    <div class="hobbies-imgs">
+                        <img src="imgs/hobbies/piano.png" alt="piano">
+                        <img src="imgs/hobbies/cycling.png" alt="ciclismo">
+                        <img src="imgs/hobbies/swimming.png" alt="natação">
+                        <img src="imgs/hobbies/volleyball-player.png" alt="vôlei">
+                    </div>
+                    <p>
+                        Durante os anos de estudos em a minha licenciatura em biologia e, também, por
+                        causa da experiência lecionando, aprendi muito a me relacionar positivamente com os mais
+                        diversos tipos de pessoas, sejam elas novas ou com mais idade. Além de me tornar uma pessoa mais
+                        respeitosa, atenta ás necessidades dos outros, resiliente e empática.
+                    </p>
+
+                    <div class="softSkillsLecture-imgs">
+                        <img src="imgs/lecture.png" alt="lecionar">
+                    </div>
+
+                    <p>
+                        Apesar dessa alta quantidade de enregia, sou muito calmo, paciênte e tolerante. Me dou bem com
+                        quase todo o tipo de pessoa. Sou proativo, empático e adoro aprender coisas novas e ensinar.
+                    </p>
+                </div>
+            </section>
+
+            <section id="courses" class="studies">
+                <h2 id="courses" class="studies-title">Formações + Cursos</h2>
+                <div class="knowledge">
+                    <div class="university">
+                        <div class="university-ufmg">
+                            <img class="ufmg" src="imgs\ufmg-logo.png" alt="UFMG logo">
+                        </div>
+                        <div class="ufmg-description">
+                            <p>Graduação em Biologia (licenciatura) 2019</p>
+                        </div>
+                    </div>
+
+                    <p class="knowledge-text">
+                        Cursos em TI:
+                    </p>
+                    <div class="ti-courses">
+                        <div class="senac-container">
+                            <div class="updates-senac">
+                                <img class="senac" src="imgs\senac-logo.png" alt="Senac logo">
+                            </div>
+                            <div class="senac-description">
+                                <p>
+                                    Programador Web (240h) 2021 <br>
+                                    Web Designer (160h) 2021
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="alura-container">
+                            <div class="updates-alura">
+                                <img class="alura" src="imgs\alura-logo.png" alt="Alura logo">
+                            </div>
+                            <div class="oracle-alura-description">
+                                <p>
+                                    Cursando Programador Front-End 2022 (Alura ONE-ORACLE)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="abilities" class="xp">
+                <h2 id="experiences" class="xp-title">Experiência em programação</h2>
+                <div class="xp-imgs">
+                    <img class="xp-html" src="imgs/html-5.png" alt="html">
+                    <img class="xp-css" src="imgs/css.png" alt="css">
+                    <img class="xp-js" src="imgs/js.png" alt="javaScript">
+                </div>
+            </section>
+
+            <main id="projects" class="creations">
+                <h2 id="myProjects" class="projects-title">Meus projetos</h2>
+                <div class="projects-done">
+                    <div class="cryptography">
+                        <h3 class="projectTitle">Criptografia</h3>
+                        <div class="imgs-container">
+                            <img class="cryptography-img" src="imgs/projects/cryptography.png"
+                                alt="cryptography project">
+                        </div>
+                        <div class="descriptions">
+                            <p>Criptografa e descriptografa palavras e frases.</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+
+                        <div class="cryptography_btns">
+                            <a href="https://github.com/LucasMiguel20/Cryptography" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="https://lucasmiguel20.github.io/Cryptography/" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hash-game">
+                        <h3 class="projectTitle">Jogo da velha</h3>
+                        <div class="imgs-container">
+                            <img class="hash-game-img" src="imgs/projects/hash-game.png" alt="hash game">
+                        </div>
+                        <div class="descriptions">
+                            <p>Clássico jogo da velha</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="hash-game_btns">
+                            <a href="https://github.com/LucasMiguel20/hash-game" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="https://lucasmiguel20.github.io/hash-game/" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hangman-game">
+                        <h3 class="projectTitle">Jogo da forca</h3>
+                        <div class="imgs-container">
+                            <img class="hangman-game-img" src="imgs/projects/hangman-game.png" alt="hangman game">
+                        </div>
+                        <div class="descriptions">
+                            <p>Clássico jogo da forca com diferentes modos de jogo</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="hangman-game_btns">
+                            <a href="https://github.com/LucasMiguel20/hangman-game" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="https://lucasmiguel20.github.io/hangman-game/" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="snake-game">
+                        <h3 class="projectTitle">Jogo da cobrinha</h3>
+                        <div class="imgs-container">
+                            <img class="snake-game-img" src="imgs/projects/snake-game.png" alt="">
+                        </div>
+                        <div class="descriptions">
+                            <p>Clássico jogo da cobrinha</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="snake-game_btns">
+                            <a href="https://github.com/LucasMiguel20/SnakeGame" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="https://lucasmiguel20.github.io/SnakeGame/" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ecommerce">
+                        <h3 class="projectTitle">Loja Virtual</h3>
+                        <div class="inProgress">Em construção !</div>
+                        <div class="descriptions">
+                            <p>Loja de vendas online</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="ecommerce_btns">
+                            <a href="#" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="education">
+                        <h3 class="projectTitle">Plataforma Educacional</h3>
+                        <div class="inProgress">Em breve !</div>
+                        <div class="descriptions">
+                            <p>Plataforma Educacional online</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="education_btns">
+                            <a href="#" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="condominiumFinancialApp">
+                        <h3 class="projectTitle">Aplicativo Financeiro para Condomínios</h3>
+                        <div class="inProgress">Em breve !</div>
+                        <div class="descriptions">
+                            <p>Facilita e agiliza o controle financeiro de condomínios</p>
+                            <p>Tecnologias: HTML / CSS / JS</p>
+                        </div>
+                        <div class="condominiumFinancialApp_btns">
+                            <a href="#" target="_blank">
+                                <button class="btns__repo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="btns__demo">
+                                    <span class="text">Demonstração</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <section id="talkWithMe" class="contact">
+                <h3 id="contact" class="contact-title">Contato</h3>
+                <form class="contact-form">
+                    <label class="label-name" for="name">Nome:</label>
+                    <input type="text" class="input-name" id="name" name="nome" placeholder="Nome Completo" required>
+                    <label class="label-email" for="email">Email:</label>
+                    <input type="email" class="input-email" id="email" name="email" required>
+                    <label class="label-topic" for="assunto">Assunto:</label>
+                    <input type="text" class="input-topic" id="assunto" name="assunto" required>
+                    <label class="label-message" for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" class="input-message" id="mensagem" cols="30" rows="10"
+                        required></textarea>
+                    <input class="input-btn" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p class=" footerText">&copy Lucas Pinheiro Miguel - 2022</p>
+            <div class="footer-imgs">
+                <a href="https://github.com/LucasMiguel20" target="_blank">
+                    <img class="github-img" src="imgs/github.png" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-pinheiro-miguel-7922b11ba/" target="_blank">
+                    <img class="linkedin-img" src="imgs\linkedin.png" alt="linkedin">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/age.js"></script>
+    <script src="scripts\sideBar.js"></script>
+    <script src="scripts/open-Resume.js"></script>
+</body>
+
+</html>

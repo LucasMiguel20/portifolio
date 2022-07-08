@@ -1,0 +1,177 @@
+.xp-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+.xp-html,
+.xp-css,
+.xp-js {
+    height: 65px;
+    width: 65px;
+}
+
+.projects-done {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 70px 0;
+}
+
+.cryptography,
+.hangman-game,
+.hash-game,
+.snake-game,
+.ecommerce,
+.education,
+.condominiumFinancialApp {
+    align-items: center;
+    background: linear-gradient(0deg, rgba(126, 126, 126, 1) 0%, rgba(170 234 239) 40%, rgba(255, 255, 255, 1) 80%);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    width: 300px;
+}
+
+.projectTitle {
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    height: 20%;
+    text-align: center;
+}
+
+.imgs-container,
+.inProgress {
+    height: 30%;
+}
+
+.inProgress {
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    height: 30%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+}
+
+.cryptography-img,
+.hash-game-img,
+.hangman-game-img,
+.snake-game-img {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.descriptions {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 30%;
+    justify-content: space-around;
+    line-height: 35px;
+    padding: 0 25px;
+}
+
+.cryptography_btns,
+.hangman-game_btns,
+.hash-game_btns,
+.snake-game_btns,
+.ecommerce_btns,
+.education_btns,
+.condominiumFinancialApp_btns {
+    margin-top: 10px;
+    height: 20%;
+}
+
+.btns__repo,
+.btns__demo {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-width: 0;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #00b2b5;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 0;
+    opacity: 1;
+    outline: 0;
+    padding: 0.8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    touch-action: manipulation;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1), background-color 100ms cubic-bezier(.694, 0, 0.335, 1), color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    vertical-align: baseline;
+    -webkit-user-select: none;
+    white-space: nowrap;
+}
+
+.btns__repo:before,
+.btns__demo:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #EBEBEB;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+}
+
+.btns__repo:hover:before,
+.btns__demo:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+
+.btns__repo:after,
+.btns__demo:after {
+    background-color: #FFFFFF;
+}
+
+.btns__repo span,
+.btns__demo span {
+    position: relative;
+    z-index: 1;
+}
+
+.btns__repo:hover,
+.btns__demo:hover {
+    font-weight: 700;
+}
+
+.cryptography-img,
+.hash-game-img,
+.hangman-game-img,
+.snake-game-img {
+    height: 150px;
+    width: 200px;
+}
+
+.cryptography-img:hover,
+.hash-game-img:hover,
+.hangman-game-img:hover,
+.snake-game-img:hover,
+.ecommerce-img:hover {
+    transform: scale(1.6);
+    z-index: 2;
+}

@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 200px;
+    position: relative;
+}
+
+#myDatas {
+    margin-left: 200px;
+}
+
+#personalDatas {
+    position: relative;
+}
+
+.datas {
+    align-items: center;
+    color: white;
+    display: flex;
+    right: 3%;
+    position: absolute;
+    transform: translate(2%, -100%);
+}
+
+.myPicture {
+    border-radius: 25%;
+    padding: 10px;
+    width: 170px;
+}
+
+.aboutMe {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.informations {
+    font-weight: bold;
+}
+
+.resume-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.past-title,
+.liking-title,
+.studies-title,
+.xp-title,
+.projects-title,
+.contact-title {
+    color: #00b2b5;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.myHistoty-texts,
+.hobbiesSoftskills-texts {
+    line-height: 28px;
+    margin-bottom: 90px;
+    text-indent: 30px;
+}
+
+.hobbies-imgs {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.softSkillsLecture-imgs {
+    margin: 15px 0;
+}
+
+.past,
+.liking,
+.studies,
+.xp,
+.creations,
+.contact {
+    margin: 40px 70px 10px;
+}
+
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.knowledge-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.university {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.university-ufmg {
+    margin-bottom: 20px;
+}
+
+.ti-courses {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.senac-container,
+.alura-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+}
+
+.updates-alura {
+    margin-bottom: 20px;
+}
+
+.ufmg-description,
+.senac-description,
+.oracle-alura-description {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.alura,
+.ufmg,
+.senac {
+    width: 110px;
+}

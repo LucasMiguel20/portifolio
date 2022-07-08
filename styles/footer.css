@@ -1,0 +1,32 @@
+.footer {
+    align-items: center;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.footerText {
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.github-img,
+.linkedin-img {
+    height: 35px;
+    padding: 5px;
+    width: 35px;
+}
+
+.github-img:hover,
+.linkedin-img:hover {
+    transform: scale(1.2);
+}
+
+.footer-imgs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

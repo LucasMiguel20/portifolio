@@ -1,0 +1,54 @@
+.sidenav {
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.sidenav a,
+.dropBtn,
+#dropBtn-2nd-level {
+    background: none;
+    border: none;
+    color: #00b2b5;
+    cursor: pointer;
+    display: block;
+    font-size: 24px;
+    outline: none;
+    padding: 6px 8px 6px 16px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+
+#dropBtn-2nd-level {
+    text-transform: uppercase;
+}
+
+.sidenav a:hover,
+.dropBtn:hover,
+#dropBtn-2nd-level:hover {
+    background-color: #00b2b5;
+    color: white;
+}
+
+#dropBtn-2nd-level,
+.drop-container a {
+    font-size: 18px;
+}
+
+.drop-container {
+    background-color: #262626;
+    display: none;
+    padding-left: 8px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
