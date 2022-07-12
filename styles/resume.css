@@ -1,30 +1,199 @@
-#btn-resume {
-    background-color: white;
-    border: none;
-    border-radius: 30px;
-    color: #00b2b5;
+body {
     font-size: 20px;
-    font-weight: bolder;
-    height: 25px;
-    margin-left: 15px;
-    text-decoration: none;
-    width: 250px;
+    margin-bottom: 50px;
 }
 
-#btn-resume:hover {
-    color: white;
-    cursor: pointer;
-    background-color: #00b2b5;
-    transform: scale(1.2);
+main {
+    margin-left: 240px;
 }
 
-#resume {
-    display: block;
+.header {
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 200px;
+}
+
+.header_informations {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.myPicture {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    width: 200px;
+}
+
+.header_informations__personal {
+    color: #0077b5;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header_informations__personal p:first-of-type {
+    font-size: 50px;
+}
+
+.header_informations__contacts___phone {
+    margin: 20px 0;
+}
+
+.header_informations__contacts___phone,
+.header_informations__contacts___email {
+    align-items: center;
+    display: flex;
+}
+
+.header_informations__contacts___links____github,
+.header_informations__contacts___links____linkedin {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.email-img {
+    width: 40px;
+}
+
+.phone-img {
+    padding: 0 10px;
+    width: 32px;
+}
+
+.email-img {
+    margin-right: 10px;
+}
+
+.linkedin-img,
+.github-img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.aside {
+    background-color: #0077b5;
+    width: 200px;
     height: 100%;
-    left: 0;
-    overflow: auto;
-    position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 1;
+    left: 0;
+    position: fixed;
+}
+
+.intro p,
+.academic_info p,
+.experience_info p {
+    line-height: 30px;
+}
+
+.abilities_title,
+.languages_title,
+.academic_title,
+.experience_title,
+.courses_title {
+    align-items: center;
+    color: #0077b5;
+    display: flex;
+    margin: 40px 0 20px 0;
+}
+
+.abilities_title__text,
+.languages_title__text,
+.academic_title__text,
+.experience_title__text,
+.courses_title__text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.intro,
+.languages_native,
+.languages_learned,
+.academic_info p,
+.experience_info p {
+    margin-left: 50px;
+}
+
+.academic_info,
+.experience_info,
+.courses_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.abilities_list,
+.courses_list {
+    margin-left: 50px;
+}
+
+.abilities_list li:before,
+.languages_native:before,
+.languages_learned:before,
+.academic_info p:first-of-type:before,
+.experience_info p:first-of-type:before,
+.courses_list li:before {
+    content: "\251C";
+    color: #0077b5;
+    font-size: 31px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: -1em;
+    width: 1em;
+}
+
+.academic_info p:last-child:before,
+.experience_info p:last-child:before {
+    content: "\2502";
+    color: #0077b5;
+    font-size: 31px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 38px;
+    margin-left: -1em;
+    width: 1em;
+}
+
+.languages_pt {
+    margin-bottom: 7px;
+}
+
+.languages_pt,
+.languages_en {
+    align-items: center;
+    display: flex;
+}
+
+.languages_learned {
+    margin-right: calc(80px - 48.89px);
+}
+
+.languages_images {
+    margin-left: 40%;
+}
+
+.academic_info__datas,
+.experience_info__datas,
+.courses_info__datas {
+    line-height: 30px;
+    position: absolute;
+}
+
+.experience_info__datas {
+    color: white;
+    font-weight: bold;
+    left: calc((200px - 96.67px) / 2);
+}
+
+.academic_info__datas,
+.courses_info__datas {
+    color: white;
+    font-weight: bold;
+    left: calc((200px - 40px) / 2);
 }
